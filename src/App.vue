@@ -1,10 +1,19 @@
 <template>
-  <div>Test</div>
+  <div>
+    <Header></Header>
+  </div>
 </template>
 
 <script>
-export default {};
+import Header from "./components/Header";
+
+export default {
+  name: "App",
+  components: {
+    Header
+  }
+};
 </script>
 
-<style>
+<style scoped>
 </style>
